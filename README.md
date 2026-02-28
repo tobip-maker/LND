@@ -1,6 +1,6 @@
 URL del hosting: [https://github.com/tobip-maker/AE6.1_Byron_LorenzoSanJuan?tab=readme-ov-file](https://github.com/tobip-maker/LND)
 
-URL de enlace directo a la página: https://tobip-maker.github.io/AE6.1_Byron_LorenzoSanJuan/
+URL de enlace directo a la página: [https://tobip-maker.github.io/AE6.1_Byron_LorenzoSanJuan/](https://tobip-maker.github.io/LND/)
 
 🔹 Organización de estilos
 
@@ -159,4 +159,5 @@ Optimizar imágenes antes de subirlas al servidor.
 Revisar enlaces periódicamente.
 
 Implementar certificado SSL en producción
+
 
