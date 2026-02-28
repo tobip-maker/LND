@@ -1,0 +1,90 @@
+/* ================================
+   SECCIÓN INICIO
+================================ */
+
+.seccion_inicio {
+    width: 100%;
+}
+
+.portada {
+    position: relative; /* Permite posicionar texto encima con absolute */
+    border-top: 1px solid #333; /* Línea separadora superior */
+    padding-top: 2%;
+    margin-top: 2%;
+    width: 100%;
+    height: 90vh; /* Altura proporcional al tamaño de pantalla */
+    overflow: hidden; /* overflow: hidden; Evita debordamientos de la imagen */
+}
+
+.portada img {
+    width: 95%;
+    margin: 0 3% 0 2%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Texto superpuesto sobre la imagen */
+.texto_grande {
+    position: absolute; /* Se posiciona respecto a .portada */
+    top: 25%;
+    left: 10%;
+    color: white;
+    font-size: clamp(1.8rem, 4vw, 3rem); /* Tamaño adaptable */
+    font-weight: bold;
+}
+
+.texto_grande p {
+    margin: 10px 0; /* Separación entre líneas del texto */
+}
+
+
+/* ================================
+   SECCIÓN PRODUCTOS DESTACADOS
+================================ */
+
+.seccion_productos {
+    display: flex; /* Distribuye productos en fila */
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.texto_pequeno p {
+    margin-bottom: 20px;
+}
+
+/* Botón principal de compra */
+.boton_compra {
+    background-color: #333;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px; /* Forma redondeada */
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.boton_compra:hover {
+    background-color: #f7941d; /* Cambio de color al pasar el ratón */
+}
+
+
+/* Productos pequeños en fila */
+.productos_pequenos {
+    flex: 1;
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+
+/* Caja visual individual de producto */
+.caja_producto {
+    background-color: #ccc;
+    height: 120px;
+    flex: 1;
+}
+
+/* Configuración de fondo adaptable */
+.producto_grande,
+.productos_pequenos {
+    background-size: cover;
+}

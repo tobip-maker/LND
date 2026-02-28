@@ -1,0 +1,69 @@
+/* ================================
+   SECCIÓN SOBRE LA EMPRESA
+================================ */
+
+.seccion_sobre {
+    display: flex; /* Divide imagen y texto en columnas */
+    gap: 40px;
+    align-items: center; /* Centrado vertical */
+}
+
+/* Contenedor de imagen */
+.imagen_empresa {
+    flex: 1;
+    background-color: #ccc;
+}
+
+/* Contenedor de texto */
+.texto_empresa {
+    flex: 1;
+    padding-bottom: 1%;
+}
+
+/* Ajuste de logo interno */
+.texto_empresa img{
+    width: 43px;
+    height: 40px;
+}
+
+/* Permite que el h2 esté en línea con otros elementos */
+.texto_empresa h2 {
+    display: inline;
+}
+
+/* Estilo general de párrafos */
+p {
+    line-height: 2; /* Mejora legibilidad */
+    padding-top: 2%;
+}
+
+/* Subtítulo */
+.texto_empresa h3 {
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+/* Bloque redes sociales */
+.redes_sociales {
+    margin-top: 20px;
+}
+
+.redes_sociales img {
+    width: 5%;
+    height: 5%;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+/* Adaptabilidad en pantallas pequeñas */
+.seccion_sobre {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imagen_empresa,
+.texto_empresa {
+    min-width: 300px;
+}
